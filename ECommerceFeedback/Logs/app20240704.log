@@ -1,0 +1,217 @@
+2024-07-04 00:05:33.347 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-04 00:05:33.528 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: 186ms
+2024-07-04 00:05:33.533 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: Dates are not in Correct Format.ms
+2024-07-04 00:14:25.385 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-04 00:14:25.601 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: 219ms
+2024-07-04 00:14:25.604 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: Dates are not in Correct Format.ms
+2024-07-04 00:17:34.526 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-04 00:17:37.046 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 00:17:40.487 +05:30 [INF] PERF-CONTROLLER | Finished Process - Products | Time: 5960 ms
+2024-07-04 00:18:21.104 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:18:46.995 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ECommerceFeedback.Common.Validation.ValidateOrderBy(String& message, String orderBy, String nameOfField) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Common\Validation.cs:line 30
+   at ECommerceFeedback.Common.Validation.ValidateProductsListingRequest(String category, String orderBy, String& message) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Common\Validation.cs:line 23
+   at ECommerceFeedback.Controllers.ProductsController.ProductsListing(ProductsListingRequest productsListingRequest) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Controllers\ProductsController.cs:line 79
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 00:19:07.998 +05:30 [INF] PERF-CONTROLLER |  Start Process - Fetch Products Details | Time: 0ms
+2024-07-04 00:19:09.771 +05:30 [INF] PERF-CONTROLLER | Finished Process - Products Details | Time: 1773 ms
+2024-07-04 00:19:25.665 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:20:13.577 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:20:13.699 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Fetch Products List | Time: 125ms
+2024-07-04 00:20:13.702 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Fetch Products List | Time:  orderByField is required.ms
+2024-07-04 00:21:06.179 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 00:21:09.452 +05:30 [INF] PERF-CONTROLLER | Add To Bag | Time: 5460 ms
+2024-07-04 00:21:21.827 +05:30 [INF] PERF-CONTROLLER | Get Shopping Bag | Time: 2104 ms
+2024-07-04 00:22:00.297 +05:30 [INF] PERF-CONTROLLER | Purchase Products | Time: 226 ms
+2024-07-04 00:22:08.461 +05:30 [INF] PERF-CONTROLLER | Order Details | Time: 63 ms
+2024-07-04 00:22:16.135 +05:30 [INF] PERF-CONTROLLER | Update Delivery Status | Time: 78 ms
+2024-07-04 00:22:29.066 +05:30 [INF] PERF-CONTROLLER | Get Shopping Bag | Time: 18 ms
+2024-07-04 00:22:30.198 +05:30 [INF] PERF-CONTROLLER | Get Shopping Bag | Time: 4 ms
+2024-07-04 00:24:42.432 +05:30 [ERR] An error occurred while fetching user details.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ECommerceFeedback.Facade.User.UserFacade.UserDetails(Int64 userId, CancellationToken cancellation) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Facade\User\UserFacade.cs:line 48
+   at ECommerceFeedback.Controllers.UserController.UserDetails(Int64 userId) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Controllers\UserController.cs:line 92
+2024-07-04 00:25:02.169 +05:30 [ERR] An error occurred while fetching user details.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ECommerceFeedback.Facade.User.UserFacade.UserDetails(Int64 userId, CancellationToken cancellation) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Facade\User\UserFacade.cs:line 48
+   at ECommerceFeedback.Controllers.UserController.UserDetails(Int64 userId) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Controllers\UserController.cs:line 92
+2024-07-04 00:25:02.206 +05:30 [INF] PERF-CONTROLLER | User Details | Failed | Time: 114861 ms
+2024-07-04 00:25:32.258 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 00:26:26.229 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 00:27:57.259 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 00:28:27.339 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ECommerceFeedback.Facade.User.UserFacade.AddUser(UserRequest addUser, CancellationToken cancellation) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Facade\User\UserFacade.cs:line 39
+   at ECommerceFeedback.Controllers.UserController.AddUser(UserRequest userRequest) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Controllers\UserController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 00:29:47.750 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 00:30:09.313 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ECommerceFeedback.Facade.User.UserFacade.AddUser(UserRequest addUser, CancellationToken cancellation) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Facade\User\UserFacade.cs:line 39
+   at ECommerceFeedback.Controllers.UserController.AddUser(UserRequest userRequest) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Controllers\UserController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 00:31:26.420 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 00:31:42.990 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ECommerceFeedback.Facade.User.UserFacade.AddUser(UserRequest addUser, CancellationToken cancellation) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Facade\User\UserFacade.cs:line 39
+   at ECommerceFeedback.Controllers.UserController.AddUser(UserRequest userRequest) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Controllers\UserController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 00:33:13.876 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-04 00:33:16.075 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 00:33:19.092 +05:30 [INF] PERF-CONTROLLER | Finished Process - Products | Time: 5216 ms
+2024-07-04 00:34:16.753 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:34:18.365 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 1612 ms
+2024-07-04 00:34:32.107 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:34:32.154 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 47 ms
+2024-07-04 00:34:34.214 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:34:34.226 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 11 ms
+2024-07-04 00:35:07.631 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:35:07.665 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 33 ms
+2024-07-04 00:35:08.560 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:35:08.572 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 12 ms
+2024-07-04 00:35:58.057 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-04 00:35:58.109 +05:30 [INF] PERF-CONTROLLER | Finished Process - Products | Time: 51 ms
+2024-07-04 00:35:58.933 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-04 00:35:58.959 +05:30 [INF] PERF-CONTROLLER | Finished Process - Products | Time: 26 ms
+2024-07-04 00:36:17.639 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:36:17.663 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 23 ms
+2024-07-04 00:36:28.792 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:36:28.799 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 6 ms
+2024-07-04 00:36:29.361 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:36:29.367 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 5 ms
+2024-07-04 00:36:29.884 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:36:29.892 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 7 ms
+2024-07-04 00:36:30.464 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:36:30.473 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 8 ms
+2024-07-04 00:36:30.979 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:36:30.985 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 6 ms
+2024-07-04 00:36:31.533 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:36:31.542 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 8 ms
+2024-07-04 00:36:32.248 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 00:36:32.253 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 5 ms
+2024-07-04 00:38:43.546 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 00:38:53.251 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ECommerceFeedback.Facade.User.UserFacade.AddUser(UserRequest addUser, CancellationToken cancellation) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Facade\User\UserFacade.cs:line 39
+   at ECommerceFeedback.Controllers.UserController.AddUser(UserRequest userRequest) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Controllers\UserController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 12:13:36.317 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-04 12:13:38.896 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 12:13:42.550 +05:30 [INF] PERF-CONTROLLER | Finished Process - Products | Time: 6232 ms
+2024-07-04 15:49:31.298 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-04 15:49:32.363 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 15:49:34.030 +05:30 [INF] PERF-CONTROLLER | Finished Process - Products | Time: 2734 ms
+2024-07-04 15:50:38.324 +05:30 [INF] PERF-CONTROLLER | Start Process - Fetch Products List | Time: 0ms
+2024-07-04 15:50:39.140 +05:30 [INF] PERF-CONTROLLER | Finished Process - Fetched Products Listing | Time: 816 ms
+2024-07-04 15:51:06.427 +05:30 [INF] PERF-CONTROLLER |  Start Process - Fetch Products Details | Time: 0ms
+2024-07-04 15:51:06.835 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ECommerceFeedback.Repository.ProductRepository.ProductRepository.ProductDetails(Int64 productId) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Repository\ProductRepository\ProductRepository.cs:line 40
+   at ECommerceFeedback.Facade.Products.ProductsFacade.ProductDetails(Int64 productId, CancellationToken cancellation) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Facade\Products\ProductsFacade.cs:line 51
+   at ECommerceFeedback.Controllers.ProductsController.ProductDetails(Int64 productId) in C:\Users\omsharm1\source\repos\ECommerceFeedback\Controllers\ProductsController.cs:line 107
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 15:51:17.707 +05:30 [INF] PERF-CONTROLLER |  Start Process - Fetch Products Details | Time: 0ms
+2024-07-04 15:51:17.744 +05:30 [INF] PERF-CONTROLLER | Finished Process - Products Details | Time: 36 ms
+2024-07-04 17:25:19.427 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-04 17:25:20.497 +05:30 [WRN] The 'bool' property 'ActiveIndicator' on entity type 'Product' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2024-07-04 17:25:33.171 +05:30 [INF] PERF-CONTROLLER | Finished Process - Products | Time: 13744 ms

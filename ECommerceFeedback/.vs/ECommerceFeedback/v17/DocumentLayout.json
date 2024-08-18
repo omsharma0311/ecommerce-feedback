@@ -1,0 +1,574 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD56A581-81BC-44F4-BEE4-E236685656DF}|..\\ECommerceFeedback.Test\\ECommerceFeedback.Test.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback.test\\shoppingcarttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD56A581-81BC-44F4-BEE4-E236685656DF}|..\\ECommerceFeedback.Test\\ECommerceFeedback.Test.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback.test\\productstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\controllers\\shoppingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:controllers\\shoppingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\hasscopehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\hasscopehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\logs\\app20240704.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:logs\\app20240704.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\hasscoperequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\hasscoperequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\dbcontext\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:dbcontext\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\dbcontext\\idatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:dbcontext\\idatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\facade\\shopping\\ishoppingfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:facade\\shopping\\ishoppingfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\facade\\user\\iuserfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:facade\\user\\iuserfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\repository\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:repository\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\repository\\shoppingrepository\\ishoppingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:repository\\shoppingrepository\\ishoppingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\repository\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:repository\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:repository\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\repository\\baserepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:repository\\baserepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\models\\domain\\request\\bagrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:models\\domain\\request\\bagrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\models\\data\\usercart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:models\\data\\usercart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\models\\data\\shoppingcartproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:models\\data\\shoppingcartproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\models\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:models\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|c:\\users\\omsharm1\\source\\repos\\ecommercefeedback\\models\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2626171D-DE06-4854-A2ED-DC5E73F13054}|ECommerceFeedback.csproj|solutionrelative:models\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\Helper.cs",
+              "RelativeDocumentMoniker": "Common\\Helper.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\Helper.cs",
+              "RelativeToolTip": "Common\\Helper.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAwwDcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:08:57.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwBMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:05:35.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HasScopeRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\HasScopeRequirement.cs",
+              "RelativeDocumentMoniker": "Common\\HasScopeRequirement.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\HasScopeRequirement.cs",
+              "RelativeToolTip": "Common\\HasScopeRequirement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:08:50.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "Controllers\\BaseApiController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwAwAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:05:15.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingController.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Controllers\\ShoppingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShoppingController.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Controllers\\ShoppingController.cs",
+              "RelativeToolTip": "Controllers\\ShoppingController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:05:41.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsTest.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback.Test\\ProductsTest.cs",
+              "RelativeDocumentMoniker": "..\\ECommerceFeedback.Test\\ProductsTest.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback.Test\\ProductsTest.cs",
+              "RelativeToolTip": "..\\ECommerceFeedback.Test\\ProductsTest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:14:58.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShoppingCartTest.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback.Test\\ShoppingCartTest.cs",
+              "RelativeDocumentMoniker": "..\\ECommerceFeedback.Test\\ShoppingCartTest.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback.Test\\ShoppingCartTest.cs",
+              "RelativeToolTip": "..\\ECommerceFeedback.Test\\ShoppingCartTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:15:22.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Common\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\MappingProfile.cs",
+              "RelativeToolTip": "Common\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:09:10.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\Validation.cs",
+              "RelativeDocumentMoniker": "Common\\Validation.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\Validation.cs",
+              "RelativeToolTip": "Common\\Validation.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:09:29.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T10:09:41.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app20240704.log",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Logs\\app20240704.log",
+              "RelativeDocumentMoniker": "Logs\\app20240704.log",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Logs\\app20240704.log",
+              "RelativeToolTip": "Logs\\app20240704.log",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-04T10:11:14.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HasScopeHandler.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\HasScopeHandler.cs",
+              "RelativeDocumentMoniker": "Common\\HasScopeHandler.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\HasScopeHandler.cs",
+              "RelativeToolTip": "Common\\HasScopeHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:08:35.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAGQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:07:55.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GlobalExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\GlobalExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Common\\GlobalExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\GlobalExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Common\\GlobalExceptionHandlerMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:08:19.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Common\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Common\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:07:34.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\Constants.cs",
+              "RelativeDocumentMoniker": "Common\\Constants.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\Constants.cs",
+              "RelativeToolTip": "Common\\Constants.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:07:24.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "Common\\ErrorModel.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\ErrorModel.cs",
+              "RelativeToolTip": "Common\\ErrorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:07:15.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Common\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "Common\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:07:07.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:05:42.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\DBContext\\DataContext.cs",
+              "RelativeDocumentMoniker": "DBContext\\DataContext.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\DBContext\\DataContext.cs",
+              "RelativeToolTip": "DBContext\\DataContext.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAswBYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:04:55.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\DBContext\\IDataContext.cs",
+              "RelativeDocumentMoniker": "DBContext\\IDataContext.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\DBContext\\IDataContext.cs",
+              "RelativeToolTip": "DBContext\\IDataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:04:51.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IShoppingFacade.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Facade\\Shopping\\IShoppingFacade.cs",
+              "RelativeDocumentMoniker": "Facade\\Shopping\\IShoppingFacade.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Facade\\Shopping\\IShoppingFacade.cs",
+              "RelativeToolTip": "Facade\\Shopping\\IShoppingFacade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:04:38.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserFacade.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Facade\\User\\IUserFacade.cs",
+              "RelativeDocumentMoniker": "Facade\\User\\IUserFacade.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Facade\\User\\IUserFacade.cs",
+              "RelativeToolTip": "Facade\\User\\IUserFacade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:04:09.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\UserRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\UserRepository\\IUserRepository.cs",
+              "RelativeToolTip": "Repository\\UserRepository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:03:37.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IShoppingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\ShoppingRepository\\IShoppingRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ShoppingRepository\\IShoppingRepository.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\ShoppingRepository\\IShoppingRepository.cs",
+              "RelativeToolTip": "Repository\\ShoppingRepository\\IShoppingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:03:20.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\ProductRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductRepository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\ProductRepository\\IProductRepository.cs",
+              "RelativeToolTip": "Repository\\ProductRepository\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:03:11.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\ProductRepository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductRepository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\ProductRepository\\ProductRepository.cs",
+              "RelativeToolTip": "Repository\\ProductRepository\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:03:08.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\BaseRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\BaseRepository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Repository\\BaseRepository\\IRepository.cs",
+              "RelativeToolTip": "Repository\\BaseRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:02:55.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BagRequest.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Domain\\Request\\BagRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Request\\BagRequest.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Domain\\Request\\BagRequest.cs",
+              "RelativeToolTip": "Models\\Domain\\Request\\BagRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:02:34.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserCart.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Data\\UserCart.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\UserCart.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Data\\UserCart.cs",
+              "RelativeToolTip": "Models\\Data\\UserCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:02:13.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ShoppingCartProducts.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Data\\ShoppingCartProducts.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\ShoppingCartProducts.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Data\\ShoppingCartProducts.cs",
+              "RelativeToolTip": "Models\\Data\\ShoppingCartProducts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:02:10.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Data\\User.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\User.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Data\\User.cs",
+              "RelativeToolTip": "Models\\Data\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:02:08.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\Product.cs",
+              "ToolTip": "C:\\Users\\omsharm1\\source\\repos\\ECommerceFeedback\\Models\\Data\\Product.cs",
+              "RelativeToolTip": "Models\\Data\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:01:54.932Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

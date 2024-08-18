@@ -1,0 +1,12 @@
+2024-07-03 19:41:34.119 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-03 19:41:34.224 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: 106ms
+2024-07-03 19:41:34.226 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: Dates are not in Correct Format.ms
+2024-07-03 19:41:54.479 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-03 19:41:54.480 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: 0ms
+2024-07-03 19:41:54.480 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: Dates are not in Correct Format.ms
+2024-07-03 19:43:03.707 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-03 19:43:03.708 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: 0ms
+2024-07-03 19:43:03.708 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: Dates are not in Correct Format.ms
+2024-07-03 19:58:22.546 +05:30 [INF] PERF-CONTROLLER | Start Process - Add Products | Time: 0ms
+2024-07-03 19:58:22.638 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: 93ms
+2024-07-03 19:58:22.639 +05:30 [INF] PERF-CONTROLLER | Validation Failed - Add Products | Time: Dates are not in Correct Format.ms
